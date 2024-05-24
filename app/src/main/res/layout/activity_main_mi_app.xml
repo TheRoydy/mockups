@@ -39,7 +39,7 @@
         android:id="@+id/btn_volver"
         android:layout_width="63dp"
         android:layout_height="49dp"
-        android:onClick="btn_login"
+        android:onClick="btn_volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.568"

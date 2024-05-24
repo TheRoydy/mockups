@@ -17,7 +17,7 @@ class MainMiApp : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        var btn_volver =findViewById<Button>(R.id.btn_login)
+        var btn_volver =findViewById<Button>(R.id.btn_volver)
         btn_volver.setOnClickListener {
             //finish elimina o cierra la actividad actual
             finish()
