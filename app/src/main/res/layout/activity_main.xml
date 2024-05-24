@@ -5,20 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9EB7EC">
-
-
-
+    android:background="#1B4F72">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="237dp"
-        android:layout_height="81dp"
+        android:layout_width="268dp"
+        android:layout_height="83dp"
         android:fontFamily="sans-serif-black"
-        android:text="MOCKUPS"
+        android:text="TechRoydy"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="34sp"
+        android:textColor="#FAF9F9"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,6 +27,7 @@
         android:layout_width="203dp"
         android:layout_height="65dp"
         android:backgroundTint="#090909"
+        android:onClick="cambioLogin"
         android:text="Login"
         android:textColor="#FAFAFA"
         android:textSize="24sp"
@@ -49,6 +47,7 @@
         android:layout_width="203dp"
         android:layout_height="65dp"
         android:backgroundTint="#000000"
+        android:onClick="btn_noticias"
         android:text="Noticias"
         android:textColor="#F8F8F8"
         android:textSize="24sp"
@@ -82,6 +81,67 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.705" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lista"
+        app:srcCompat="@drawable/tech_ram_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="89dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lista"
+        app:srcCompat="@drawable/tech_electronics_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lista"
+        app:srcCompat="@drawable/woman_technologist_medium_light_skin_tone_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lista"
+        app:srcCompat="@drawable/android_color_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/tech_circuit_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="172dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+        app:srcCompat="@drawable/game_svgrepo_com" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

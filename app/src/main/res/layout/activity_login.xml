@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B6E6FE"
+    android:background="#1B4F72"
     tools:context=".login">
 
 
@@ -24,11 +24,102 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Profile"
-        android:textSize="34sp"
+        android:fontFamily="sans-serif-black"
+        android:text="TechRoydy"
+        android:textColor="#F6F0F0"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.066" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="261dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#E4DEDE"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColor="#F3F3F3"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#FBFBFB"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="266dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#EAE9E9"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#0B0A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <Button
+        android:id="@+id/btn_app"
+        android:layout_width="162dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#000000"
+        android:onClick="btn_app"
+        android:text="My App"
+        android:textColor="#DFDADA"
+        android:textSize="20sp"
+        app:icon="@drawable/next_arrow_forward_svgrepo_com"
+        app:iconGravity="end"
+        app:iconSize="35dp"
+        app:iconTint="#EAE7E7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#000000"
+        android:onClick="btn_salir"
+        android:text="Volver"
+        android:textColor="#F8F4F4"
+        android:textSize="20sp"
+        app:icon="@drawable/exit_left_svgrepo_com"
+        app:iconSize="35dp"
+        app:iconTint="#E8E8E8"
+        app:layout_constraintEnd_toStartOf="@+id/btn_app"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="303dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#070707"
+        android:text="Inicio de Sesión"
+        android:textColor="#F1F1F1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.295" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
