@@ -47,7 +47,7 @@
         android:layout_width="203dp"
         android:layout_height="65dp"
         android:backgroundTint="#000000"
-        android:onClick="btn_noticias"
+        android:onClick="cambioNoticias"
         android:text="Noticias"
         android:textColor="#F8F8F8"
         android:textSize="24sp"

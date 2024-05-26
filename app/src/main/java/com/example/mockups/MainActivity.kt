@@ -25,5 +25,10 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun cambioNoticias(view: View) {
+        var intent = Intent(application, MainNoticias::class.java)
+        startActivity(intent)
+    }
+
 
 }
